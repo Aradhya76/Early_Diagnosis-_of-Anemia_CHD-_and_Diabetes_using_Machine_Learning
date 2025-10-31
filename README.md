@@ -10,7 +10,6 @@ Expected project structure (minimal):
 blood-disease-app/
 ├─ app.py
 ├─ requirements.txt
-├─ Procfile                 # for deploy (optional)
 ├─ models/
 │  ├─ diabetes_model.pkl
 │  ├─ diabetes_scaler.pkl   (optional)
@@ -94,28 +93,6 @@ run_with_ngrok(myapp.app)
 myapp.app.run()
 ```
 Colab will print a public `https://xxxx.ngrok.io` URL — click it to open the GUI.
-
----
-
-## Notes & Troubleshooting
-
-### 1) `ModuleNotFoundError: No module named 'app'`
-Make sure you `cd` into the folder containing `app.py` and run the import from that working directory.
-
-### 2) Pickle compatibility
-If you see errors when loading pickles (e.g., `numpy.dtype size changed`), recreate the `.pkl` files in the environment you'll run the app (train/save in the same environment or use matching package versions).
-
-### 3) Feature order
-The order of features used to train each model must match the input order in `app.py` `*_param_ranges`. If predictions look wrong, reorder keys to match training.
-
-### 4) Pipeline
-If you trained with an sklearn `Pipeline`, save the entire pipeline as `*_model.pkl` and skip saving a separate scaler.
-
----
-
-## Deploying (optional)
-- For quick deployments, consider Render, Heroku, or Railway.
-- A sample `Procfile` is included for Heroku/Render: `web: gunicorn app:app`
 
 ---
 
