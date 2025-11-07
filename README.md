@@ -4,7 +4,7 @@ This repository contains a Flask web application that predicts three blood-relat
 **Diabetes**, **Anemia**, and **Coronary Heart Disease (CHD)** using pre-trained scikit-learn models saved as `.pkl` files.
 
 ## Files required (place these in the project root / folders)
-Expected project structure (minimal):
+Expected project structure :
 
 ```
 blood-disease-app/
@@ -12,11 +12,11 @@ blood-disease-app/
 ├─ requirements.txt
 ├─ models/
 │  ├─ diabetes_model.pkl
-│  ├─ diabetes_scaler.pkl   (optional)
+│  ├─ diabetes_scaler.pkl   
 │  ├─ anemia_model.pkl
-│  ├─ anemia_scaler.pkl     (optional)
+│  ├─ anemia_scaler.pkl     
 │  ├─ chd_model.pkl
-│  └─ chd_scaler.pkl        (optional)
+│  └─ chd_scaler.pkl        
 ├─ templates/
 │  ├─ base.html
 │  ├─ diabetes.html
