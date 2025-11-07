@@ -144,10 +144,5 @@ The GUI created for **Diabetes** uses a generic pattern that can be re-used for 
 3. Saving of best model and scaler  
 4. Prediction scripts load artifacts and produce output
 
-## Notes & Next steps
-- Add `requirements.txt` with pinned versions for reproducibility.  
-- Add UI pages for Anemia and CHD (I can generate these automatically if you upload `anemia.csv` and CHD dataset).  
-- Improve error handling and add unit tests for inference code.  
-
 ## License
 MIT License. See `LICENSE` file for full text.
