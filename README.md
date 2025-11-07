@@ -1,4 +1,4 @@
-# Blood Disease Predictor - README
+# Blood Disease Prediction - README
 
 This repository contains a Flask web application that predicts three blood-related conditions:
 **Diabetes**, **Anemia**, and **Coronary Heart Disease (CHD)** using pre-trained scikit-learn models saved as `.pkl` files.
