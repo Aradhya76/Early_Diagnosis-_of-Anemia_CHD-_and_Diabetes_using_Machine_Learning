@@ -1,6 +1,6 @@
 # Early Diagnosis of Anemia, CHD and Diabetes using Machine Learning
 
-**Developed an end‑to‑end solution with predictive models and simple CLI scripts.**
+
 
 ## Table of Contents
 - Project Overview  
