@@ -1,7 +1,0 @@
-flask
-flask-ngrok
-numpy
-scikit-learn
-pandas
-requests
-gunicorn
