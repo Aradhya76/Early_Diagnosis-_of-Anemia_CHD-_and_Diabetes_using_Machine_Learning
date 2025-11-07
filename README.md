@@ -9,10 +9,9 @@
 - Installation  
 - Usage  
 - Data & Models  
-- How it works (short)  
-- Notes & Next steps  
+- How it works (short)    
 - License  
-- Contact  
+
 
 ## Project Overview
 This repository contains a small end‑to‑end project for early diagnosis prediction of three conditions using machine learning: Anemia, Coronary Heart Disease (CHD), and Diabetes. It includes the CSV datasets used, trained models and scalers (pickle files), and simple Python scripts to run predictions.
@@ -74,20 +73,12 @@ print("Prediction:", prediction[0])
 - Model files: `*_model.pkl`  
 - Scaler files: `*_scaler.pkl`  
 
-## How it works (short)
+## How it works 
 1. Pre‑processing & scaling of dataset features  
 2. Model training & benchmarking (CSV files like `30 algos …` show algorithm comparisons)  
 3. Saving of best model and scaler  
 4. Prediction scripts load artifacts and produce output  
 
-## Notes & Next steps
-- Add `requirements.txt` with version‑pinned dependencies.  
-- Add an `examples/` folder with sample input CSVs.  
-- Enhance prediction scripts with CLI argument parsing (`argparse`).  
-- Provide a unified inference wrapper (`inference.py`) for community reuse.  
-
 ## License
 MIT License. See `LICENSE` file for full text.
 
-## Contact
-If you would like me to commit this `README.md` or also add `requirements.txt` and example input files — let me know and I’ll prepare those ready to integrate.
